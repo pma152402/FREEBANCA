@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="bg-cyan-800 pt-15 px-10 pb-4">
+      <div className="bg-cyan-900 pt-15 px-10 pb-4">
         <div className="grid grid-cols-4 w-fit mx-auto gap-25 text-lg text-gray-100">
           <div>
             <h5 className="text-5xl font-bold">FREEBANCA</h5>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <span className="text-cyan-950 pt-10 grid grid-cols-1 w-fit mx-auto">FREEBANCA® todos los derechos reservados </span>
+        <span className="text-gray-400 pt-10 grid grid-cols-1 w-fit mx-auto">FREEBANCA® todos los derechos reservados </span>
       </div>
     </>
   );
