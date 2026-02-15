@@ -3,6 +3,7 @@ import banner from "./assets/banner_1.jpg";
 import friends from "./assets/hug_1.webp";
 
 import Metal from "./components/Metal";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -80,6 +81,8 @@ function App() {
       </div>
 
     <Metal/>
+
+    <Footer/>
       
     </div>
   );

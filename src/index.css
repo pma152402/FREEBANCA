@@ -1,2 +1,8 @@
 @import "tailwindcss";
 /* DONT TOUCH THIS FILE, IT IS USED TO IMPORT TAILWINDCSS INTO THE PROJECT */
+
+@layer components {
+  .enlaces-footer {
+    @apply transition ease-in-out hover:translate-x-2 cursor-pointer
+  }
+}
