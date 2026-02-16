@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <span className="text-gray-300/30 pt-10 grid grid-cols-1 w-fit mx-auto">FREEBANCA® todos los derechos reservados </span>
+        <span className="text-gray-300/30 pt-10 grid grid-cols-1 w-fit mx-auto">FREEBANCA® web de Pablo Monís Álvarez </span>
       </div>
     </>
   );

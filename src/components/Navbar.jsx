@@ -47,7 +47,7 @@ export default function Navbar() {
                 <div className="flex flex-col items-center pl-5">
                     <h5 className="text-7xl font-bold">FB</h5>
                     <h6 className="text-sm font-semibold border-b-2 border-gray-200">
-                        FREEBANKA
+                        FREEBANCA
                     </h6>
                 </div>
 
