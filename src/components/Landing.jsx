@@ -14,7 +14,7 @@ export default function Landing() {
 
       <div className="bg-cyan-800 w-full grid grid-cols-2">
         <div className="bg-cyan-700 w-full pl-20 ">
-          <div className="bg-cyan-600 text-gray-100 p-10">
+          <div className="bg-gradient-to-t from-cyan-500 to-cyan-600 text-gray-100 p-10">
             <h1 className="text-9xl font-bold">FREEBANCA</h1>
             <h3 className="text-xl font-medium mt-[-15px]">
               TU BANCO ONLINE DE CONFIANZA
@@ -52,7 +52,7 @@ export default function Landing() {
 
       <div className="bg-cyan-800 w-full grid grid-cols-2 text-gray-50">
         <div className="bg-cyan-700 h-full w-full pl-20">
-          <div className="bg-cyan-600 text-gray-100 p-10 h-full pt-12">
+          <div className="bg-gradient-to-t from-cyan-500 to-cyan-600 text-gray-100 p-10 h-full pt-12">
             <div className="text-7xl font-bold px-25 py-10">
               <h2>INVIERTE EN TU</h2>
               <h2 className="text-9xl font-extrabold">FUTURO</h2>

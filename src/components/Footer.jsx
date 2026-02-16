@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="bg-cyan-900 pt-15 px-10 pb-4">
+      <div className=" bg-gradient-to-t from-cyan-950 to-cyan-800 pt-15 px-10 pb-4">
         <div className="grid grid-cols-4 w-fit mx-auto gap-25 text-lg text-gray-100">
           <div>
             <h5 className="text-5xl font-bold">FREEBANCA</h5>
