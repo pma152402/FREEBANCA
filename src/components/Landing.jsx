@@ -1,12 +1,15 @@
 import banner from "../assets/banner_1.jpg";
 import friends from "../assets/hug_1.webp";
 import Carrusel from "./Carrusel";
+import Navbar from "./Navbar";
 
 export default function Landing() {
   
 
   return (
     <>
+
+      <Navbar/>
       <div className="bg-amber-100 w-full">
         <img
           src={banner}
