@@ -31,7 +31,7 @@ export default function Footer() {
             <span className="block text-3xl font-bold mb-5 text-center">¿Dónde estamos?</span>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3307.604768768519!2d-4.463891217007185!3d36.71749001764249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1771182003746!5m2!1ses!2ses"
-              className="h-80 w-80 rounded-full border-10 border-cyan-700"
+              className="h-80 w-80  border-6 border-cyan-800"
               loading="lazy"
             ></iframe>
           </div>

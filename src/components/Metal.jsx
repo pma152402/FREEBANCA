@@ -11,7 +11,7 @@ export default function Metal() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-800 to-neutral-800 py-40 px-40">
+      <div className="bg-gradient-to-r from-gray-800 to-neutral-800 py-40 px-40 z-20">
         {/* TITULO QUE CAMBIA */}
 
         <div className="text-center pb-10 pt-10">
