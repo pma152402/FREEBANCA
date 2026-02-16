@@ -11,11 +11,11 @@ export default function Metal() {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-800 to-neutral-800 py-40 px-40">
+      <div className="bg-gradient-to-r from-gray-800 to-neutral-800 py-40 px-40 z-20">
         {/* TITULO QUE CAMBIA */}
 
         <div className="text-center pb-10 pt-10">
-          <span className="block text-7xl text-gray-200 font-bold">
+          <span className="block text-7xl text-gray-200 font-bold italic">
             DESCUBRE EL MERCADO
           </span>
 
@@ -31,7 +31,7 @@ export default function Metal() {
         <div className="flex justify-center gap-6 mb-10">
           <button
             onClick={() => setMetal("gold")}
-            className={`px-6 py-2 rounded-full font-semibold transition ${
+            className={`px-6 py-2 rounded-full font-semibold transition cursor-pointer ${
               metal === "gold"
                 ? "bg-amber-200 text-black"
                 : "bg-gray-700 text-white hover:bg-gray-600"
@@ -42,7 +42,7 @@ export default function Metal() {
 
           <button
             onClick={() => setMetal("silver")}
-            className={`px-6 py-2 rounded-full font-semibold transition ${
+            className={`px-6 py-2 rounded-full font-semibold transition cursor-pointer ${
               metal === "silver"
                 ? "bg-gray-300 text-black"
                 : "bg-gray-700 text-white hover:bg-gray-600"

@@ -5,4 +5,8 @@
   .enlaces-footer {
     @apply transition ease-in-out hover:translate-x-2 cursor-pointer
   }
+
+  .enlaces-navbar {
+    @apply flex flex-col items-center cursor-pointer hover:scale-110 active:bg-gray-100/10 rounded-xl transition-all ease-in-out min-w-25 p-1
+  }
 }
