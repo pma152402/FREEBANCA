@@ -7,6 +7,6 @@
   }
 
   .enlaces-navbar {
-    @apply flex flex-col items-center cursor-pointer hover:scale-110 active:bg-gray-100/10 rounded-xl transition-all ease-in-out min-w-25 p-1
+    @apply flex flex-row items-center cursor-pointer hover:scale-110 active:bg-gray-100/10 rounded-xl transition-all ease-in-out min-w-25 p-x2
   }
 }
