@@ -45,18 +45,17 @@ export default function Navbar() {
                 ${visibleNav ? "translate-y-0" : "-translate-y-full"}`}>
 
                 <div className="flex flex-col items-center pl-5">
-                    <h5 className="text-7xl font-bold">FB</h5>
-                    <h6 className="text-sm font-semibold border-b-2 border-gray-200">
+                    <h6 className="text-2xl font-semibold border-b-2 border-gray-200">
                         FREEBANCA
                     </h6>
                 </div>
 
 
                 <ul className="flex gap-20 items-center">
-                    <li className="enlaces-navbar"> <IconGraph size={61}/> Productos</li>
-                    <li className="enlaces-navbar"> <IconBuildingStore size={61}/>Mercado</li>
-                    <li className="enlaces-navbar"> <IconMailOpenedFilled size={61}/>Contacto</li>
-                    <li className="enlaces-navbar"> <div className="border-5 border-gray-100 rounded-full mt-0.5 bg-gray-100/20"><IconUserFilled size={50}/></div>Iniciar sesión</li>
+                    <li className="enlaces-navbar"> <IconGraph size={22}/> Productos</li>
+                    <li className="enlaces-navbar"> <IconBuildingStore size={22}/>Mercado</li>
+                    <li className="enlaces-navbar"> <IconMailOpenedFilled size={22}/>Contacto</li>
+                    <li className="enlaces-navbar"> <div className=" rounded-full mt-0.5 bg-gray-100/20"><IconUserFilled size={22}/></div>Iniciar sesión</li>
                 </ul>
 
                 
