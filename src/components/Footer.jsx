@@ -25,6 +25,8 @@ export default function Footer() {
               <li className="enlaces-footer">Facebook</li>
               <li className="enlaces-footer">Linkedin</li>
               <li className="enlaces-footer">X</li>
+
+              <li className="enlaces-footer">This is just an update commit</li>
             </ul>
           </div>
           <div>
