@@ -66,6 +66,16 @@ export default function Landing() {
           </div>
         </div>
 
+
+          <div className="bg-gradient-to-t from-cyan-500 to-cyan-600 text-gray-100 p-10 h-full pt-12 ">
+            <div className="text-7xl font-bold px-25 py-10">
+              <h2>ESTO ES UNA PRUEBA</h2>
+              <h2 className="text-9xl font-extrabold">FUTURO</h2>
+            </div>
+          </div>
+        
+
+
         <Carrusel/>
 
       </div>
